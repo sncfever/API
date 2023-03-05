@@ -3,9 +3,6 @@ const request = require('request')
 const mongo_username = 'dummy'  // update your username
 const mongo_password = 'sncnick2' // update your password
 
-const apiKey = 'a5a4ee3a'
-const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=`
-
 const jwt = require('jsonwebtoken')
 
 //JWT secretKey
